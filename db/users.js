@@ -14,7 +14,7 @@ let data = [
         lastName: "Salinas"
     },{
         id: 2,
-        name: "Enrique",
+        name: "Humberto",
         lastName: "Fernandez"
     }
 ]

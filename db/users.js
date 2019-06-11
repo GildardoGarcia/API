@@ -12,6 +12,10 @@ let data = [
         id: 1,
         name: "Edwin",
         lastName: "Salinas"
+    },{
+        id: 2,
+        name: "Enrique",
+        lastName: "Fernandez"
     }
 ]
 

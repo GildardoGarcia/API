@@ -1,8 +1,8 @@
 // en la arquitectura esto seria parte de la capa de datos
 
 const collections = {
-    todos: require('./todos'),
-    users: require('./users'),
+    lots: require('./lots'),
+    items: require('./items'),
 }
 
 // funciones de utileria
@@ -21,12 +21,12 @@ function getLastId(collection) {
 
 // representa un SELECT de SQL
 // TODO: tercer parametro es demasiado especifico, deberia ser un objeto que represente filtros adicionales
-function select(collection, id, userId) {
+function select(collection, id, itemId) {
     let data = collections[collection].data
     if(id) {
-        return data.find(e => e.id === id && (userId ? e.userId === userId : true))
+        return data.find(e => e.id === id && (itemId ? e.itemId === itemId : true))
     }else {
-        return data.filter(e => userId ? e.userId === userId : true)
+        return data.filter(e => itemId ? e.itemId === itemId : true)
     }
 }
 

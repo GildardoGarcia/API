@@ -2,46 +2,53 @@ const name = 'lots'
 
 let schema = {
     id: 'number',
-    itemId: 'number',
     title: 'string',
-    description: 'string'
+    description: 'string',
+    location: 'string'
 }
 
 // contenido inicial
 let data = [
     {
-        id: 901,
-        itemId: 1005,
+        id: 100,
         title: "Car Maintance",
-        description: "Engine Oil"
+        description: "Engine Oil",
+        location: "Zone A-6"
     },
 
     {
-        id: 901,
-        itemId: 1026,
+        id: 101,
         title: "Car Maintance",
-        description: "Engine Oil"
+        description: "Air Filter",
+        location: "Zone A-2"
     },
 
     {
-        id: 908,
-        itemId: 1090,
+        id: 103,
+        title: "Car Maintance",
+        description: "Oil Filter",
+        location: "Zone A-1"
+    },
+
+    {
+        id: 200,
+        title: "Car Accesories",
+        description: "Cellphone Mount",
+        location: "Zone B-1"
+    },
+
+    {
+        id: 300,
         title: "Car Spares",
-        description: "Tires"
+        Description: "Tires",
+        location: "Zone F-3"
     },
 
     {
-        id: 902,
-        itemId: 1048,
-        title: "Car Maintance",
-        description: "Air Filter"
-    },
-
-    {
-        id: 902,
-        itemId: 1032,
-        title: "Car Maintance",
-        description: "Air Filter"
+        id: 301,
+        title: "Car Spares",
+        Description: "Radiator Hoses",
+        location: "Zone C-9"
     }
 ]
 

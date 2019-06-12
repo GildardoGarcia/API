@@ -4,7 +4,7 @@ let schema = {
     id: 'number',
     name: 'string',
     description: 'string',
-    lotId: 'number',
+    lotId: 'number'
 }
 
 // contenido inicial
@@ -13,28 +13,28 @@ let data = [
         id: 1,
         name: "Engine Oil",
         description: "Valvoline 10W-30",
-        lotId: 100,
+        lotId: 100
     },
 
     {
         id: 2,
         name: "Engine Oil",
         description: "Castrol 10W-30",
-        lotId: 100,
+        lotId: 100
     },
 
     {
         id: 3,
         name: "Oil Filter",
         description: "FRAM PH-7248",
-        lotId: 103,
+        lotId: 103
     },
 
     {
         id: 4,
         name: "Air Filter",
         description: "FRAM CA11113",
-        lotId: 101,
+        lotId: 101
     },
 
     {

@@ -20,6 +20,7 @@ router.get('/:id', (req, res, next) => {
 // POST insertar item
 router.post('/', (req, res, next) => {
   let item = DB.insert('items', req.body)
+  console.log(item)
   res.status(200).send(item)
 })
 
